@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+  <head>
+	  <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
+<!--去掉底部Powered by Alist--->
+<style>
+.footer span,.footer a:nth-of-type(1){
+  display:none;
+}
+</style>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="referrer" content="same-origin" >
+    <meta name="generator" content="AList V3" >
+    <meta name="theme-color" content="#000000" >
+    <meta name="google" content="notranslate" >
+    <script       src="https://g.alicdn.com/IMM/office-js/1.1.5/aliyun-web-office-sdk.min.js"
+      async
+    ></script>
+    <link       rel="shortcut icon"
+      type="image/ico"
+      href="https://raw.githubusercontent.com/Yumu152068/Yumu152068.github.io/main/image/Y.png"
+    >
+    <title>Yumu</title>
+
+    
+    
+    <script type="module">try{import.meta.url;import("_").catch(()=>1);}catch(e){}window.__vite_is_modern_browser=true;</script>
+    <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy build because dynamic import or import.meta.url is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src= window.__dynamic_base__+e.getAttribute('data-src'),n.onload=function(){System.import( window.__dynamic_base__+document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+    <script>
+(function(){
+var preloads = [{"parentTagName":"head","tagName":"script","attrs":{"type":"module","crossorigin":"","src":"/assets/index.3d3abe4a.js"}},{"parentTagName":"head","tagName":"link","attrs":{"rel":"stylesheet","href":"/assets/index.659f4289.css"}}];
+function setAttribute(target, attrs) {
+for (var key in attrs) {
+  target.setAttribute(key, attrs[key]);
+}
+return target;
+};
+for(var i = 0; i < preloads.length; i++){
+var item = preloads[i]
+var childNode = document.createElement(item.tagName);
+setAttribute(childNode, item.attrs)
+if( window.__dynamic_base__) {
+  if(item.tagName == 'link') {
+    setAttribute(childNode, { href:  window.__dynamic_base__ + item.attrs.href })
+  } else if (item.tagName == 'script') {
+    setAttribute(childNode, { src:  window.__dynamic_base__ + item.attrs.src })
+  }
+}
+document.getElementsByTagName(item.parentTagName)[0].appendChild(childNode);
+}
+})();
+</script>
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" style="background-color: ;margin: 0 auto; width: 900px; height: 700px;">
+		<div class="header" style="height: 25px;margin-bottom: 50px;">
+			<div class="image" style="color: red;float: left;">
+				<img src="image/Y.png" style="width: 50px; height: 47px;">
+			</div>
+		</div>
+		<div class="nav"> 
+			<span class="soutu-btn"></span>
+			<input id="kw" name="wd" class="s_ipt" value="" maxlength="255" autocomplete="off">
+			<a id="su" href="https://www.baidu.com/">百度一下</a>
+		</div>
+		<div class="List" style="width: 900px;height: 400px;border-radius: 20px;background-color: #ffffff;">
+			<div class="nav2" style="width: 900px;height: 40px; margin-bottom: 15px;">
+				<div class="change1">
+					<a  class="scale" href="https://www.baidu.com">百度</a>
+					<a href="https://gitee.com/" >Gitee网站</a>
+					<a href=""></a>
+				</div>
+			</div>
+			<div class="nav2" style="width: 900px;height: 40px;margin-bottom: 15px;">
+				<div class="change1">
+					<a href="">百度</a>
+					<a href="" ></a>
+					<a href=""></a>
+				</div>
+			</div>
+			<div class="nav2" style="width: 900px;height: 40px;margin-bottom: 15px;">
+				<div class="change1">
+					<a href="https://www.jd.com">京东</a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+			</div>
+			<div class="nav2" style="width: 900px;height: 40px;margin-bottom: 15px;">
+				<div class="change1">
+					<a href="https://www.jd.com">京东</a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+			</div>
+			<div class="nav2" style="width: 900px;height: 40px;margin-bottom: 15px;">
+				<div class="change1">
+					<a href="https://www.jd.com">京东</a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+			</div>
+			
+		</div>
+	
+	</div>
+    <!--放在自定义头部-->
+<style>
+/*渐变背景CSS */
+#canvas-basic {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -999;
+}
+</style>
+
+
+<!--放在自定义body-->
+
+<!-- 渐变背景初始化 -->
+<canvas id="canvas-basic"></canvas> 
+<script src="https://npm.elemecdn.com/granim@2.0.0/dist/granim.min.js"></script>
+<script>
+var granimInstance = new Granim({
+    element: '#canvas-basic',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#a18cd1', '#fbc2eb'],
+                 ['#fff1eb', '#ace0f9'],
+                 ['#d4fc79', '#96e6a1'],
+                 ['#a1c4fd', '#c2e9fb'],
+                 ['#a8edea', '#fed6e3'],
+                 ['#9890e3', '#b1f4cf'],
+                 ['#a1c4fd', '#c2e9fb'],
+                 ['#fff1eb', '#ace0f9']
+           
+            ]
+        }
+    }
+});
+</script>
+    <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+    <script nomodule crossorigin id="vite-legacy-polyfill" data-src="/assets/polyfills-legacy.4bbeb9a4.js">!(function() {
+      var e = document.createElement('script')
+      e.src =  window.__dynamic_base__ + document.getElementById('vite-legacy-polyfill').getAttribute('data-src');
+      e.onload = function() {
+        System.import( window.__dynamic_base__+document.getElementById('vite-legacy-entry').getAttribute('data-src'))
+      };
+      document.body.appendChild(e)
+    })();</script>
+    <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy.03e5249d.js"></script>
+  </body>
+</html>
